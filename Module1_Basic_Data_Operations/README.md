@@ -61,3 +61,16 @@ SciPy
 ## Expected Skills
 
 Students should be able to represent experimental or simulated data graphically and interpret physical behavior using visualization tools.
+
+---
+
+Course Developed by
+
+Dr. Sharad Chandra Tripathi  
+Employee ID: 100015  
+School of Advanced Sciences and Languages  
+VIT Bhopal University  
+
+PHY1003 – Introduction to Computational Physics Lab  
+
+© 2026 Dr. Sharad Chandra Tripathi. All rights reserved.

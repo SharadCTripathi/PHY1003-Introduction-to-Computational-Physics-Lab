@@ -73,3 +73,16 @@ SciPy
 ## Expected Skills
 
 Students should be able to simulate particle motion and analyze physical laws governing dynamical systems.
+
+---
+
+Course Developed by
+
+Dr. Sharad Chandra Tripathi  
+Employee ID: 100015  
+School of Advanced Sciences and Languages  
+VIT Bhopal University  
+
+PHY1003 – Introduction to Computational Physics Lab  
+
+© 2026 Dr. Sharad Chandra Tripathi. All rights reserved.

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/course_banner.png" width="100%">
+</p>
+
 # PHY1003-Introduction-to-Computational-Physics-Lab
 
 ## Citation

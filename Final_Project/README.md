@@ -1,161 +1,217 @@
 # Final Project – Computational Physics
 
-The final project is designed as a **computational investigation** where students apply concepts learned throughout the course to study a physical system using Python.
+The final project is a **computational investigation** where students apply the concepts learned throughout the course to analyze and simulate physical systems using Python.
 
-Unlike regular laboratory activities, the final project requires students to design a computational approach, explore parameter variations, generate scientific visualizations, and interpret the physical behavior of the system.
+Unlike regular laboratory exercises, the final project requires students to design algorithms, analyze datasets or simulated systems, explore parameter variations, generate scientific visualizations, and interpret the physical meaning of the results.
 
-The project must integrate concepts from multiple modules including **data operations, mathematical methods, and particle dynamics**.
+Projects must integrate concepts from **Basic Data Operations, Mathematical Physics, and Particle Dynamics** covered in the course.
 
----
-
-## Learning Objectives
-
-After completing this project students will be able to:
-
-• design computational algorithms for physics problems  
-• implement numerical methods using Python  
-• analyze scientific datasets and simulation outputs  
-• perform parameter studies and visualization  
-• interpret numerical results in a physical context  
+Projects must be completed in **groups of 2–3 students**.
 
 ---
 
-## Nature of the Project
+# Approved Computational Investigation Projects
 
-The final project must include:
-
-• implementation of a computational model  
-• exploration of different parameter values  
-• generation of multiple scientific plots  
-• analysis and interpretation of results  
-
-Projects may be completed **individually or in groups of 2–3 students**.
+Students must select **one project** and complete **all the associated problems**.
 
 ---
 
-## Approved Computational Investigation Topics
+# Project 1 – Analysis of Solar Activity Data  
+**Related Module:** Module 1 – Basic Data Operations  
 
-Students must select **one of the following projects**.
+Dataset Source  
+Sunspot number dataset from the **World Data Center SILSO**
 
-### Project 1 – Scientific Dataset Analysis and Visualization  
-**Related Modules:** Module 1  
+https://www.sidc.be/silso/datafiles
 
-Perform statistical analysis and visualization of a scientific dataset.  
-Students must generate multiple graphical representations and interpret the observed trends.
+Problems
 
----
+• Import the monthly sunspot dataset and generate a time series visualization of solar activity over multiple decades.
 
-### Project 2 – Multivariable Data Visualization and Surface Mapping  
-**Related Modules:** Module 1  
+• Compute moving averages and identify solar cycle periodicity using statistical analysis.
 
-Create 2-D and 3-D visualizations of multivariable datasets using contour plots, surface plots, and scatter plots.
-
----
-
-### Project 3 – Vector Operations and Geometric Visualization  
-**Related Modules:** Module 2  
-
-Develop a computational program to demonstrate vector operations such as magnitude, dot product, and cross product, and visualize vector relationships in two or three dimensions.
+• Compare yearly and monthly averages and identify periods of maximum and minimum solar activity.
 
 ---
 
-### Project 4 – Matrix Transformations and Coordinate Geometry  
-**Related Modules:** Module 3  
+# Project 2 – Global Temperature Data Visualization  
+**Related Module:** Module 1 – Basic Data Operations  
 
-Implement matrix operations to perform coordinate transformations such as rotation, scaling, and reflection and visualize their geometric effects.
+Dataset Source  
+NASA GISS Global Temperature Dataset
 
----
+https://data.giss.nasa.gov/gistemp/
 
-### Project 5 – Numerical Differentiation Error Analysis  
-**Related Modules:** Module 3  
+Problems
 
-Implement numerical differentiation methods and investigate how the accuracy changes with step size.  
-Students must analyze numerical error and compare results with analytical solutions.
+• Visualize long-term global temperature anomalies using line plots and moving averages.
 
----
+• Generate heatmaps or surface plots representing temperature variations across years.
 
-### Project 6 – Numerical Integration Accuracy Study  
-**Related Modules:** Module 3  
-
-Implement numerical integration techniques and study how the computed integral varies with different step sizes.
+• Perform trend analysis and estimate the rate of temperature change over time.
 
 ---
 
-### Project 7 – Computational Study of Projectile Motion  
-**Related Modules:** Module 4  
+# Project 3 – Visualization of Gravitational Vector Fields  
+**Related Module:** Module 2 – Mathematical Physics I  
 
-Develop a simulation of projectile motion and investigate how launch parameters influence trajectory and range.
+Dataset Nature  
+Synthetic dataset generated from gravitational field equations.
 
----
+Problems
 
-### Project 8 – Particle Motion Under Constant Force  
-**Related Modules:** Module 4  
+• Compute the gravitational field vectors around a point mass using the inverse square law.
 
-Simulate particle motion under constant acceleration and analyze position, velocity, and energy variation with time.
+• Generate a 2D vector field visualization showing gravitational attraction.
 
----
-
-### Project 9 – Two-Dimensional Particle Trajectory Simulation  
-**Related Modules:** Module 5  
-
-Model particle motion in two dimensions and analyze trajectory behavior under different initial conditions.
+• Analyze how field strength varies with distance and visualize the gradient of the field.
 
 ---
 
-### Project 10 – Numerical Simulation of Oscillatory Motion  
-**Related Modules:** Module 5  
+# Project 4 – Matrix Transformations of Particle Coordinates  
+**Related Module:** Module 3 – Mathematical Physics II  
 
-Simulate simple harmonic motion and analyze displacement, velocity, and energy variation with time.
+Dataset Nature  
+Synthetic coordinate dataset representing particle positions.
+
+Problems
+
+• Generate a dataset representing particle positions in a 2D coordinate system.
+
+• Apply matrix transformations such as rotation, scaling, and reflection.
+
+• Visualize how particle configurations change under these transformations.
 
 ---
 
-## Required Python Libraries
+# Project 5 – Numerical Differentiation of Experimental Motion Data  
+**Related Module:** Module 3 – Mathematical Physics II  
+
+Dataset Source  
+Motion dataset (time vs position) from physics experiments or generated data.
+
+Problems
+
+• Implement forward, backward, and central difference methods to compute velocity from position data.
+
+• Compute acceleration using second-order numerical differentiation.
+
+• Analyze numerical error by comparing results obtained using different step sizes.
+
+---
+
+# Project 6 – Numerical Integration for Energy Calculation  
+**Related Module:** Module 3 – Mathematical Physics II  
+
+Dataset Nature  
+Function datasets representing force or velocity as a function of time.
+
+Problems
+
+• Compute displacement by numerically integrating velocity data.
+
+• Implement trapezoidal rule and Simpson’s rule for numerical integration.
+
+• Compare the accuracy of both methods for different step sizes.
+
+---
+
+# Project 7 – Computational Study of Projectile Motion  
+**Related Module:** Module 4 – Particle Dynamics I  
+
+Dataset Nature  
+Simulation dataset generated by solving equations of motion.
+
+Problems
+
+• Develop a Python program to simulate projectile motion for varying launch angles and velocities.
+
+• Generate trajectory plots for different launch parameters.
+
+• Compute maximum height, time of flight, and range for each trajectory and analyze optimal launch angle.
+
+---
+
+# Project 8 – Particle Motion Under Constant Acceleration  
+**Related Module:** Module 4 – Particle Dynamics I  
+
+Dataset Nature  
+Simulated motion dataset.
+
+Problems
+
+• Simulate particle motion under constant acceleration using numerical methods.
+
+• Generate plots of position vs time, velocity vs time, and acceleration vs time.
+
+• Analyze conservation of mechanical energy during motion.
+
+---
+
+# Project 9 – Two-Dimensional Particle Trajectory Simulation  
+**Related Module:** Module 5 – Particle Dynamics II  
+
+Dataset Nature  
+Simulation dataset generated using Newton’s equations of motion.
+
+Problems
+
+• Simulate motion of a particle with different initial velocity vectors.
+
+• Visualize trajectories in two-dimensional space.
+
+• Analyze how trajectory changes with different initial conditions.
+
+---
+
+# Project 10 – Numerical Simulation of Simple Harmonic Motion  
+**Related Module:** Module 5 – Particle Dynamics II  
+
+Dataset Nature  
+Synthetic dataset generated using SHM equations.
+
+Problems
+
+• Simulate simple harmonic motion using numerical methods.
+
+• Generate displacement, velocity, and acceleration vs time plots.
+
+• Analyze variation of kinetic and potential energy during oscillation.
+
+---
+
+# Required Python Libraries
 
 NumPy  
-
 Matplotlib  
-
 SciPy  
+Pandas
 
 ---
 
-## Project Deliverables
+# Project Deliverables
 
-Each project must include the following components.
+Each project must include:
 
-### Python Implementation
-Well-structured Python scripts implementing the computational model.
+Python source code  
 
-### Jupyter Notebook
-A notebook containing:
+Jupyter Notebook containing problem description, methodology, code, and results  
 
-• problem description  
-• computational method  
-• Python implementation  
-• numerical results  
+Scientific visualizations and plots  
 
-### Scientific Visualizations
-Clear plots showing relationships between physical variables.
-
-### Project Report
-
-A short report describing:
-
-• problem statement  
-• computational approach  
-• results and discussion  
-• physical interpretation
+Short project report explaining computational methods and physical interpretation
 
 ---
 
-## Evaluation Criteria
+# Evaluation Criteria
 
-Projects will be evaluated based on the following criteria:
+Correct implementation of computational algorithms  
 
-• correctness of computational methods  
-• quality and clarity of Python code  
-• effectiveness of scientific visualization  
-• interpretation and discussion of results  
+Quality and clarity of Python code  
+
+Scientific visualization and graphical representation  
+
+Interpretation and discussion of results
 
 ---
 
